@@ -4,6 +4,9 @@
 #' @param gateType The selected type of gate (from UI).
 #' @param filterId The gate name specified by the user.
 #' @param gg The plot object from vars$plot.
+#' 
+#' @importFrom flowCore polygonGate rectangleGate quadGate
+#' @importFrom flowWorkspace gs_pop_add recompute
 #'
 #' @return The original GatingSet with the newly drawn gate applied.
 #'
