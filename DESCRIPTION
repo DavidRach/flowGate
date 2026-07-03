@@ -34,7 +34,9 @@ Imports:
     rlang (>= 0.4.7),
     purrr,
     tibble,
-    methods
+    methods,
+    openCyto,
+    stringr
 Depends:
     flowWorkspace (>= 4.0.6),
     ggcyto (>= 1.16.0),
@@ -43,7 +45,6 @@ RoxygenNote: 7.3.3
 Suggests: 
     knitr,
     rmarkdown,
-    stringr,
     tidyverse,
     testthat,
     vdiffr
